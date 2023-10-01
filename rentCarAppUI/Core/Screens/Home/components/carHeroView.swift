@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct carHeroView: View {
+    var titleCar: String = "Porsche 911 Carrera S"
+    var carYear: String = "2020"
+    var imageCar: String = "porsche911Image"
+    var price: String = "$380"
     var body: some View {
         VStack() {
             HStack {
@@ -25,16 +29,16 @@ struct carHeroView: View {
             .foregroundColor(.yellow)
             .font(.footnote)
             
-            Image("porsche911Image")
+            Image(imageCar)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 250, height: 120)
+                .frame(width: 275, height: 120)
             
             HStack {
                 VStack(alignment: .leading) {
-                    Text("Porsche 911 Carrera S")
+                    Text(titleCar)
                         .fontWeight(.semibold)
-                    Text("2020")
+                    Text(carYear)
                         .font(.footnote)
                         .foregroundColor(.gray)
                     
@@ -61,7 +65,7 @@ struct carHeroView: View {
                 
                 Spacer()
                 HStack(spacing: 5) {
-                    Text("$380")
+                    Text(price)
                         .fontWeight(.bold)
                     Text("/Day")
                         .font(.footnote)
