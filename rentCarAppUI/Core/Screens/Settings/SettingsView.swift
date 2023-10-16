@@ -21,6 +21,7 @@ struct SettingsView: View {
             
             redirectComponentView()
             redirectComponentView(iconName: "creditcard", title: "Payment methods")
+            redirectComponentView(isExitButton: true)
 
             Spacer()
         }
