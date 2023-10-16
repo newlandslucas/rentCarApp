@@ -9,7 +9,23 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
-        Text("SettingsView")
+        VStack {
+            HStack {
+                Text("Settings")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                
+                Spacer()
+            }
+            .padding()
+            
+            redirectComponentView()
+            redirectComponentView(iconName: "creditcard", title: "Payment methods")
+
+            Spacer()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color("ApplicationGray"))
     }
 }
 
