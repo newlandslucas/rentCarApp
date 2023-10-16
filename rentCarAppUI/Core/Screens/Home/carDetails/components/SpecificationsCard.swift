@@ -14,7 +14,7 @@ struct SpecificationsCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
             Image(systemName: iconName)
-                .font(.system(size: 25))
+                .font(.system(size: 20))
             
             Text(textCard)
             
@@ -23,7 +23,7 @@ struct SpecificationsCard: View {
                 .foregroundColor(.gray)
             
         }
-        .frame(width: 110, height: 100)
+        .frame(width: 100, height: 90)
         .background(Color.white)
         .cornerRadius(12)
     }

@@ -10,7 +10,7 @@ import SwiftUI
 struct CarDetailsView: View {
     var body: some View {
         VStack {
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 HStack {
                     Text("Porsche 911 Carrera S")
                         .font(.title)
@@ -60,6 +60,20 @@ struct CarDetailsView: View {
                     }
                     
                     SpecificationList()
+                }
+                .padding()
+                
+                VStack {
+                    HStack {
+                        Text("Map")
+                            .font(.title3)
+                            .fontWeight(.semibold)
+                        
+                        Spacer()
+                        
+                    }
+                    
+                    MapView()
                 }
                 .padding()
                 

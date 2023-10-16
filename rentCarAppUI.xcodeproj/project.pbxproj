@@ -23,6 +23,7 @@
 		9471FC432AC9020A00E9A44E /* CarDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471FC422AC9020A00E9A44E /* CarDetailsView.swift */; };
 		9471FC462AC904F400E9A44E /* SpecificationsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471FC452AC904F400E9A44E /* SpecificationsCard.swift */; };
 		9471FC482AC9066900E9A44E /* SpecificationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471FC472AC9066900E9A44E /* SpecificationList.swift */; };
+		9471FC4A2ACB2ED800E9A44E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471FC492ACB2ED800E9A44E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		9471FC422AC9020A00E9A44E /* CarDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsView.swift; sourceTree = "<group>"; };
 		9471FC452AC904F400E9A44E /* SpecificationsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificationsCard.swift; sourceTree = "<group>"; };
 		9471FC472AC9066900E9A44E /* SpecificationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificationList.swift; sourceTree = "<group>"; };
+		9471FC492ACB2ED800E9A44E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				9471FC3B2AC617A500E9A44E /* BrandsList.swift */,
 				9471FC3D2AC6FDB800E9A44E /* carHeroView.swift */,
 				9471FC3F2AC706C900E9A44E /* carHeroList.swift */,
+				9471FC492ACB2ED800E9A44E /* MapView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				9471FC3C2AC617A500E9A44E /* BrandsList.swift in Sources */,
 				9471FC372AC5FEAA00E9A44E /* TabNavigationView.swift in Sources */,
 				9471FC352AC5FE9200E9A44E /* SettingsView.swift in Sources */,
+				9471FC4A2ACB2ED800E9A44E /* MapView.swift in Sources */,
 				9471FC482AC9066900E9A44E /* SpecificationList.swift in Sources */,
 				9471FC402AC706C900E9A44E /* carHeroList.swift in Sources */,
 				9471FC332AC5FE3000E9A44E /* FavoriteView.swift in Sources */,
